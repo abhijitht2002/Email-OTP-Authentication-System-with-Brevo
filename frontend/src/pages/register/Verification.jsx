@@ -40,11 +40,11 @@ function Verification() {
       const res = await generate(email);
       console.log("API Response:", res);
 
-      // if (res?.message === "OTP sent to mail") {
+      if (res?.message === "OTP sent to mail") {
         setTimeLeft(600);
         setIsRunning(true);
         setotpSent(true);
-      // }
+      }
     } catch (error) {
       console.log(error);
     }
