@@ -1,1 +1,1 @@
-"# Email-OTP-Authentication-System-with-Nodemailer" 
+"# Email-OTP-Authentication-System-with-Brevo" 
